@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".card").forEach(e=>{const t=e.querySelector("video");t&&(e.addEventListener("mouseenter",()=>{t.play()}),e.addEventListener("mouseleave",()=>{t.pause(),t.currentTime=0}))}),"function"==typeof crayzgames&&setTimeout(()=>crayzgames(),3e3*Math.random())});
